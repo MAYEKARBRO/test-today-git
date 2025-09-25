@@ -26,6 +26,12 @@ changed(modified) / newfile(untracked) ------> add(staged) ------> commit(unchan
 ADD & COMMIT
 Add - adds new or changed files in your working directory to the git staging area
 git add <- file name ->
+git add. (for all the changes)
 
 Commit - it is the record of change
 git commit -m "some message"
+
+PUSH COMMAND 
+push - upload local repo content to remote repo
+git push origin main
+
